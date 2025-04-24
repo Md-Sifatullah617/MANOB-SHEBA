@@ -9,21 +9,21 @@ ThemeData get theme => ThemeHelper().themeData();
 // ignore_for_file: must_be_immutable
 class ThemeHelper {
   // The current app theme
-  var _appTheme = PrefUtils().getThemeData();
+  final _appTheme = PrefUtils().getThemeData();
 
   // A map of custom color themes supported by the app
-  Map<String, LightCodeColors> _supportedCustomColor = {
+  final Map<String, LightCodeColors> _supportedCustomColor = {
     'LightCode': LightCodeColors(),
   };
 
   // A map of color schemes supported by the app
-  Map<String, ColorScheme> _supportedColorScheme = {
+  final Map<String, ColorScheme> _supportedColorScheme = {
     'lightCode': ColorSchemes.lightCodeColorScheme,
   };
 
-  /// Changes the app theme to [_newTheme].
-  void changeTheme(String _newTheme) {
-    PrefUtils().setThemeData(_newTheme);
+  /// Changes the app theme to [newTheme].
+  void changeTheme(String newTheme) {
+    PrefUtils().setThemeData(newTheme);
     Get.forceAppUpdate();
   }
 
@@ -64,8 +64,8 @@ class ThemeHelper {
         ),
       ),
       checkboxTheme: CheckboxThemeData(
-        fillColor: MaterialStateColor.resolveWith((states) {
-          if (states.contains(MaterialState.selected)) {
+        fillColor: WidgetStateColor.resolveWith((states) {
+          if (states.contains(WidgetState.selected)) {
             return colorScheme.primary;
           }
           return Colors.transparent;
