@@ -1,7 +1,4 @@
-import '../presentation/app_navigation_screen/app_navigation_screen.dart';
-import '../presentation/app_navigation_screen/binding/app_navigation_binding.dart';
 import '../presentation/articles_screen/articles_screen.dart';
-import '../presentation/articles_screen/binding/articles_binding.dart';
 import '../presentation/audio_call_screen/audio_call_screen.dart';
 import '../presentation/audio_call_screen/binding/audio_call_binding.dart';
 import '../presentation/booking_doctor_screen/binding/booking_doctor_binding.dart';
