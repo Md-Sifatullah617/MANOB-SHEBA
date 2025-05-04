@@ -1,4 +1,3 @@
-import '../core/app_export.dart';
 import '../presentation/app_navigation_screen/app_navigation_screen.dart';
 import '../presentation/app_navigation_screen/binding/app_navigation_binding.dart';
 import '../presentation/articles_screen/articles_screen.dart';
