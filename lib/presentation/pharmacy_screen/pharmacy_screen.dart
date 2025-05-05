@@ -7,7 +7,7 @@ import '../models/popularproduct_item_model.dart';
 import '../widgets/popularproduct_item_widget.dart';
 
 class PharmacyScreen extends GetWidget<PharmacyController> {
-  const PharmacyScreen({Key? key}) : super(key: key);
+  const PharmacyScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

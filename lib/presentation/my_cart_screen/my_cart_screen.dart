@@ -6,7 +6,7 @@ import '../models/durgs_item_model.dart';
 import 'widgets/durgs_item_widget.dart';
 
 class MyCartScreen extends GetWidget<MyCartController> {
-  const MyCartScreen({Key? key}) : super(key: key);
+  const MyCartScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

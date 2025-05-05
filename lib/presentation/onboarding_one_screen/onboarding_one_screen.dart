@@ -6,7 +6,7 @@ import '../../widgets/custom_elevated_button.dart';
 import 'controller/onboarding_one_controller.dart';
 
 class OnboardingOneScreen extends GetWidget<OnboardingOneController> {
-  const OnboardingOneScreen({Key? key}) : super(key: key);
+  const OnboardingOneScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -29,7 +29,7 @@ class OnboardingOneScreen extends GetWidget<OnboardingOneController> {
         child: SizedBox(
           width: double.maxFinite,
           child: SingleChildScrollView(
-            child: Container(
+            child: SizedBox(
               height: 768.h,
               child: Stack(
                 alignment: Alignment.bottomCenter,

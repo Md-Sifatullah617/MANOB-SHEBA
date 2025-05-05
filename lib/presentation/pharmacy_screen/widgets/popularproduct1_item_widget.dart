@@ -6,8 +6,7 @@ import '../controller/pharmacy_controller.dart';
 import '../models/popularproduct1_item_model.dart';
 
 class Popularproduct1ItemWidget extends StatelessWidget {
-  Popularproduct1ItemWidget(this.popularproduct1ItemModelObj, {Key? key})
-    : super(key: key);
+  Popularproduct1ItemWidget(this.popularproduct1ItemModelObj, {super.key});
 
   Popularproduct1ItemModel popularproduct1ItemModelObj;
 

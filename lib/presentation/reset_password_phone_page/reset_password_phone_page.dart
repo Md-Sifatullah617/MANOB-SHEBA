@@ -9,9 +9,9 @@ import 'models/reset_password_phone_model.dart';
 
 // ignore_for_file: must_be_immutable
 class ResetPasswordPhonePage extends StatelessWidget {
-  ResetPasswordPhonePage({Key? key}) : super(key: key);
+  ResetPasswordPhonePage({super.key});
 
-  GlobalKey<FormState> _formKey = GlobalKey<FormState>();
+  final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
 
   ResetPasswordPhoneController controller = Get.put(
     ResetPasswordPhoneController(ResetPasswordPhoneModel().obs),

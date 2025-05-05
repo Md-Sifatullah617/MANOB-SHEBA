@@ -9,7 +9,7 @@ import 'controller/reset_password_email_controller.dart';
 
 // ignore_for_file: must_be_immutable
 class ResetpasswordTabPage extends StatelessWidget {
-  ResetpasswordTabPage({Key? key}) : super(key: key);
+  ResetpasswordTabPage({super.key});
 
   ResetPasswordEmailController controller = Get.put(
     ResetPasswordEmailController(),

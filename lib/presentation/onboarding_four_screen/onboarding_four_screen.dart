@@ -7,7 +7,7 @@ import '../../widgets/custom_outlined_button.dart';
 import 'controller/onboarding_four_controller.dart';
 
 class OnboardingFourScreen extends GetWidget<OnboardingFourController> {
-  const OnboardingFourScreen({Key? key}) : super(key: key);
+  const OnboardingFourScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -9,9 +9,9 @@ import 'controller/reset_password_email_controller.dart';
 
 // ignore_for_file: must_be_immutable
 class ResetPasswordEmailScreen extends GetWidget<ResetPasswordEmailController> {
-  ResetPasswordEmailScreen({Key? key}) : super(key: key);
+  ResetPasswordEmailScreen({super.key});
 
-  GlobalKey<FormState> _formKey = GlobalKey<FormState>();
+  final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
 
   @override
   Widget build(BuildContext context) {

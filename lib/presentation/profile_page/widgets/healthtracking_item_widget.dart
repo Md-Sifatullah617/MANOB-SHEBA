@@ -6,8 +6,7 @@ import '../models/healthtracking_item_model.dart';
 
 // ignore_for_file: must_be_immutable
 class HealthtrackingItemWidget extends StatelessWidget {
-  HealthtrackingItemWidget(this.healthtrackingItemModelObj, {Key? key})
-    : super(key: key);
+  HealthtrackingItemWidget(this.healthtrackingItemModelObj, {super.key});
 
   HealthtrackingItemModel healthtrackingItemModelObj;
 
