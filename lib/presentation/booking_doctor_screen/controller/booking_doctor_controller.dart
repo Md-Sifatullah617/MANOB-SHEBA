@@ -1,5 +1,4 @@
 import 'package:manob_seba/core/app_export.dart';
-import '../models/booking_doctor_model.dart';
 
 /// A controller class for the BookingDoctorScreen.
 ///

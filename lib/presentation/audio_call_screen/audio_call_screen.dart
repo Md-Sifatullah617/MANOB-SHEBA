@@ -5,10 +5,7 @@ import 'package:manob_seba/presentation/audio_call_screen/controller/audio_call_
 // ignore_for_file: must_be_immutable
 
 class AudioCallScreen extends GetWidget<AudioCallController> {
-  const AudioCallScreen({Key? key})
-      : super(
-          key: key,
-        );
+  const AudioCallScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

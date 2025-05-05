@@ -3,7 +3,7 @@ import 'package:manob_seba/core/app_export.dart';
 
 class CustomIconButton extends StatelessWidget {
   const CustomIconButton({
-    Key? key,
+    super.key,
     this.alignment,
     this.height,
     this.width,
@@ -11,7 +11,7 @@ class CustomIconButton extends StatelessWidget {
     this.padding,
     this.onTap,
     this.child,
-  }) : super(key: key);
+  });
 
   final Alignment? alignment;
   final double? height;

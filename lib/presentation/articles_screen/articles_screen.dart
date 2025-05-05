@@ -14,7 +14,7 @@ import '../widgets/listcovidninete_item_widget.dart';
 import '../widgets/listthetwentyfi_item_widget.dart';
 // ignore_for_file: must_be_immutable
 class ArticlesScreen extends GetWidget<ArticlesController> {
-  const ArticlesScreen({Key? key}) : super(key: key);
+  const ArticlesScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

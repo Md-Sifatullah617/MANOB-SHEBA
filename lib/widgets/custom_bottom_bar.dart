@@ -5,7 +5,7 @@ enum BottomBarEnum { Home, Message, Calendargray500, Lockgray500 }
 
 // ignore_for_file: must_be_immutable
 class CustomBottomBar extends StatelessWidget {
-  CustomBottomBar({Key? key, this.onChanged}) : super(key: key);
+  CustomBottomBar({super.key, this.onChanged});
 
   RxInt selectedIndex = 0.obs;
 
@@ -89,6 +89,8 @@ class BottomMenuModel {
 }
 
 class DefaultWidget extends StatelessWidget {
+  const DefaultWidget({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Container(

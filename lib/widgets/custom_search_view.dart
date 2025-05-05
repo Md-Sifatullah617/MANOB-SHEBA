@@ -76,7 +76,8 @@
 +  final Function(String)? onChanged;
 +
 +  @override
-+  Widget build(BuildContext context) {
++  @override
+  Widget build(BuildContext context) {
 +    return alignment != null
 +        ? Align(
 +            alignment: alignment ?? Alignment.center,

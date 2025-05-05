@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import '../../core/app_export.dart';
 
 class AppbarSubtitleTwo extends StatelessWidget {
-  AppbarSubtitleTwo({
-    Key? key,
+  const AppbarSubtitleTwo({
+    super.key,
     required this.text,
     this.onTap,
     this.margin,
-  }) : super(key: key);
+  });
 
   final String text;
 

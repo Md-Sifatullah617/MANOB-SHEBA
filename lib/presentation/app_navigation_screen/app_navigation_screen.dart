@@ -5,7 +5,7 @@ import '../sign_up_success_dialog/sign_up_success_dialog.dart';
 import '../../controller/app_navigation_controller.dart'; // ignore_for_file: must_be_immutable
 
 class AppNavigationScreen extends GetWidget<AppNavigationController> {
-  const AppNavigationScreen({Key? key}) : super(key: key);
+  const AppNavigationScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

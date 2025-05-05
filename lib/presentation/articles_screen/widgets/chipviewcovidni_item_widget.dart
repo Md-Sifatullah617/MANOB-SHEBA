@@ -3,7 +3,7 @@ import '../models/chipviewcovidni_item_model.dart';
 
 // ignore_for_file: must_be_immutable
 class ChipviewcovidniItemWidget extends StatelessWidget {
-  ChipviewcovidniItemWidget(this.chipviewcovidniItemModelObj, {Key? key}) : super(key: key);
+  ChipviewcovidniItemWidget(this.chipviewcovidniItemModelObj, {super.key});
 
   ChipviewcovidniItemModel chipviewcovidniItemModelObj;
 

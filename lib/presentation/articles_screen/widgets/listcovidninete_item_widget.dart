@@ -5,8 +5,7 @@ import '../models/listcovidninete_item_model.dart';
 
 // ignore_for_file: must_be_immutable
 class ListcovidnineteItemWidget extends StatelessWidget {
-  ListcovidnineteItemWidget(this.listcovidnineteItemModelObj, {Key? key})
-      : super(key: key);
+  ListcovidnineteItemWidget(this.listcovidnineteItemModelObj, {super.key});
 
   ListcovidnineteItemModel listcovidnineteItemModelObj;
 

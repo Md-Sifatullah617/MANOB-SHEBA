@@ -23,7 +23,7 @@ extension ImageTypeExtension on String {
 
 class CustomImageView extends StatelessWidget {
   const CustomImageView({
-    Key? key,
+    super.key,
     this.imagePath,
     this.height,
     this.width,
@@ -35,7 +35,7 @@ class CustomImageView extends StatelessWidget {
     this.margin,
     this.border,
     this.placeHolder = 'assets/images/image_not_found.png',
-  }) : super(key: key);
+  });
 
   final String? imagePath;
   final double? height;

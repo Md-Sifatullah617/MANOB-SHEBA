@@ -5,8 +5,7 @@ import '../models/listthetwentyfi_item_model.dart';
 
 // ignore_for_file: must_be_immutable
 class ListthetwentyfiItemWidget extends StatelessWidget {
-  ListthetwentyfiItemWidget(this.listthetwentyfiItemModelObj, {Key? key})
-      : super(key: key);
+  ListthetwentyfiItemWidget(this.listthetwentyfiItemModelObj, {super.key});
 
   ListthetwentyfiItemModel listthetwentyfiItemModelObj;
 

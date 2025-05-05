@@ -3,32 +3,22 @@ import '../core/app_export.dart';
 import 'base_button.dart';
 
 class CustomOutlinedButton extends BaseButton {
-  CustomOutlinedButton({
+  CustomOutlinedButton({super.key, 
     Key? key,
     this.decoration,
     this.leftIcon,
     this.rightIcon,
     this.label,
-    VoidCallback? onPressed,
-    ButtonStyle? buttonStyle,
-    TextStyle? buttonTextStyle,
-    bool? isDisabled,
-    Alignment? alignment,
-    double? height,
-    double? width,
-    EdgeInsets? margin,
-    required String text,
-  }) : super(
-          text: text,
-          onPressed: onPressed,
-          buttonStyle: buttonStyle,
-          isDisabled: isDisabled,
-          buttonTextStyle: buttonTextStyle,
-          height: height,
-          width: width,
-          alignment: alignment,
-          margin: margin,
-        );
+    super.onPressed,
+    super.buttonStyle,
+    super.buttonTextStyle,
+    super.isDisabled,
+    super.alignment,
+    super.height,
+    super.width,
+    super.margin,
+    required super.text,
+  });
 
   final BoxDecoration? decoration;
 
@@ -49,8 +39,8 @@ class CustomOutlinedButton extends BaseButton {
   }
 
   Widget get buildOutlinedButtonWidget => Container(
-        height: this.height ?? 56.h,
-        width: this.width ?? double.maxFinite,
+        height: height ?? 56.h,
+        width: width ?? double.maxFinite,
         margin: margin,
         decoration: decoration,
         child: OutlinedButton(

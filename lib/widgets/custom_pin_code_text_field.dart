@@ -11,8 +11,8 @@ class CustomPinCodeTextField extends StatelessWidget {
   final TextStyle? hintStyle;
   final FormFieldValidator<String>? validator;
 
-  CustomPinCodeTextField({
-    Key? key,
+  const CustomPinCodeTextField({
+    super.key,
     required this.context,
     required this.onChanged,
     this.alignment,
@@ -20,7 +20,7 @@ class CustomPinCodeTextField extends StatelessWidget {
     this.textStyle,
     this.hintStyle,
     this.validator,
-  }) : super(key: key);
+  });
 
   Widget get pinCodeTextFieldWidget => PinCodeTextField(
         appContext: context,
