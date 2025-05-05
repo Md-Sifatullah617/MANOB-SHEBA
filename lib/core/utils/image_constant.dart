@@ -102,4 +102,16 @@ class ImageConstant {
   static String imgClockBlueGray700 = '$imagePath/img_clock_blue_gray_700.svg';
   static String imgPexelsAnthony = '$imagePath/img_pexels_anthony.png';
   static String imgCalendarPrimary = '$imagePath/img_calendar_primary.svg';
+
+  // Profile Page images
+  static String imgClockErrorcontainer =
+      '$imagePath/img_clock_errorcontainer.svg';
+  static String imgUserErrorcontainer =
+      '$imagePath/img_user_errorcontainer.svg';
+  static String imgUserErrorcontainer42x42 =
+      '$imagePath/img_user_errorcontainer_42x42.svg';
+  static String imgFloatingIcon = '$imagePath/img_floating_icon.svg';
+  static String imgEllipse27 = '$imagePath/img_ellipse_27.svg';
+  static String imgUserPrimary = '$imagePath/img_user_primary.svg';
+  static String imgArrowRight = '$imagePath/img_arrow_right.svg';
 }
