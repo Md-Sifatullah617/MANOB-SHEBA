@@ -3,7 +3,7 @@ import '../core/app_export.dart';
 import 'base_button.dart';
 
 class CustomOutlinedButton extends BaseButton {
-  CustomOutlinedButton({super.key, 
+  const CustomOutlinedButton({super.key, 
     Key? key,
     this.decoration,
     this.leftIcon,

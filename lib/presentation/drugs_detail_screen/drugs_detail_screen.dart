@@ -13,7 +13,7 @@ import '../../widgets/custom_rating_bar.dart';
 import 'controller/drugs_detail_controller.dart';
 
 class DrugsDetailScreen extends GetWidget<DrugsDetailController> {
-  const DrugsDetailScreen({Key? key}) : super(key: key);
+  const DrugsDetailScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

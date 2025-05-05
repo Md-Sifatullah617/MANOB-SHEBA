@@ -8,7 +8,7 @@ import '../../widgets/custom_elevated_button.dart';
 import 'controller/booking_doctor_controller.dart';
 
 class BookingDoctorScreen extends GetWidget<BookingDoctorController> {
-  const BookingDoctorScreen({Key? key}) : super(key: key);
+  const BookingDoctorScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

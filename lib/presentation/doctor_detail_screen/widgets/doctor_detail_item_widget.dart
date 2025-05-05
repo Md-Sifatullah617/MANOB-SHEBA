@@ -6,8 +6,7 @@ import '../models/doctor_detail_item_model.dart';
 
 // ignore_for_file: must_be_immutable
 class DoctorDetailItemWidget extends StatelessWidget {
-  DoctorDetailItemWidget(this.doctorDetailItemModelObj, {Key? key})
-    : super(key: key);
+  DoctorDetailItemWidget(this.doctorDetailItemModelObj, {super.key});
 
   DoctorDetailItemModel doctorDetailItemModelObj;
 

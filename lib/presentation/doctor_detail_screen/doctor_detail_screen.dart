@@ -15,7 +15,7 @@ import 'models/doctor_detail_item_model.dart';
 import 'widgets/doctor_detail_item_widget.dart';
 
 class DoctorDetailScreen extends GetWidget<DoctorDetailController> {
-  const DoctorDetailScreen({Key? key}) : super(key: key);
+  const DoctorDetailScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

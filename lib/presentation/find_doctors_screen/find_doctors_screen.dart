@@ -12,7 +12,7 @@ import 'models/find_doctors_model.dart';
 import 'widgets/find_doctors_item_widget.dart';
 
 class FindDoctorsScreen extends GetWidget<FindDoctorsController> {
-  const FindDoctorsScreen({Key? key}) : super(key: key);
+  const FindDoctorsScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

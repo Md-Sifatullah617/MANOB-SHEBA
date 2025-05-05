@@ -6,8 +6,7 @@ import '../models/find_doctors_item_model.dart';
 
 // ignore_for_file: must_be_immutable
 class FindDoctorsItemWidget extends StatelessWidget {
-  FindDoctorsItemWidget(this.findDoctorsItemModelObj, {Key? key})
-    : super(key: key);
+  FindDoctorsItemWidget(this.findDoctorsItemModelObj, {super.key});
 
   FindDoctorsItemModel findDoctorsItemModelObj;
 

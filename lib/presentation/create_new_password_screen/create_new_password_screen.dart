@@ -10,9 +10,9 @@ import 'controller/create_new_password_controller.dart';
 
 // ignore_for_file: must_be_immutable
 class CreateNewPasswordScreen extends GetWidget<CreateNewPasswordController> {
-  CreateNewPasswordScreen({Key? key}) : super(key: key);
+  CreateNewPasswordScreen({super.key});
 
-  GlobalKey<FormState> _formKey = GlobalKey<FormState>();
+  final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
 
   @override
   Widget build(BuildContext context) {

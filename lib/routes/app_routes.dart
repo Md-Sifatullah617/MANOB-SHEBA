@@ -18,7 +18,6 @@ import '../presentation/location_screen/location_screen.dart';
 import '../presentation/login_screen/binding/login_binding.dart';
 import '../presentation/login_screen/login_screen.dart';
 import '../presentation/my_cart_screen/binding/my_cart_binding.dart';
-import '../presentation/my_cart_screen/my_cart_screen.dart';
 import '../presentation/onboarding_four_screen/binding/onboarding_four_binding.dart';
 import '../presentation/onboarding_four_screen/onboarding_four_screen.dart';
 import '../presentation/onboarding_one_screen/binding/onboarding_one_binding.dart';
