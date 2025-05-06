@@ -6,7 +6,7 @@ import 'controller/sign_up_success_controller.dart';
 
 // ignore_for_file: must_be_immutable
 class SignUpSuccessDialog extends StatelessWidget {
-  SignUpSuccessDialog(this.controller, {Key? key}) : super(key: key);
+  SignUpSuccessDialog(this.controller, {super.key});
 
   SignUpSuccessController controller;
 

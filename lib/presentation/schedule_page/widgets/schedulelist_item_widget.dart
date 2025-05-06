@@ -7,8 +7,7 @@ import '../controller/schedule_controller.dart';
 import '../models/schedulelist_item_model.dart';
 
 class ScheduleListItemWidget extends StatelessWidget {
-  ScheduleListItemWidget(this.scheduleListItemModelObj, {Key? key})
-    : super(key: key);
+  ScheduleListItemWidget(this.scheduleListItemModelObj, {super.key});
 
   ScheduleListItemModel scheduleListItemModelObj;
 

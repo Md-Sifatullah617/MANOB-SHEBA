@@ -10,7 +10,7 @@ import '../controller/reset_password_verify_code_controller.dart';
 
 class ResetPasswordVerifyCodeScreen
     extends GetWidget<ResetPasswordVerifyCodeController> {
-  const ResetPasswordVerifyCodeScreen({Key? key}) : super(key: key);
+  const ResetPasswordVerifyCodeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

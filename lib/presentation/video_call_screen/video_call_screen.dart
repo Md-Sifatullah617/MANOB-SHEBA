@@ -5,7 +5,7 @@ import '../widgets/custom_icon_button.dart';
 import 'controller/video_call_controller.dart';
 
 class VideoCallScreen extends GetWidget<VideoCallController> {
-  const VideoCallScreen({Key? key}) : super(key: key);
+  const VideoCallScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

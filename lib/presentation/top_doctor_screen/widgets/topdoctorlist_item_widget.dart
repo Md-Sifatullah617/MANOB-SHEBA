@@ -8,8 +8,7 @@ import '../models/topdoctorlist_item_model.dart';
 class TopdoctorlistItemWidget extends StatelessWidget {
   final TopdoctorlistItemModel topdoctorlistItemModelObj;
 
-  TopdoctorlistItemWidget(this.topdoctorlistItemModelObj, {Key? key})
-    : super(key: key);
+  TopdoctorlistItemWidget(this.topdoctorlistItemModelObj, {super.key});
 
   var controller = Get.find<TopDoctorController>();
 

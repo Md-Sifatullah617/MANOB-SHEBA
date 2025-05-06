@@ -9,7 +9,7 @@ import 'scheduleupcomin_tab_page.dart';
 
 // ignore_for_file: must_be_immutable
 class SchedulePage extends StatelessWidget {
-  SchedulePage({Key? key}) : super(key: key);
+  SchedulePage({super.key});
 
   ScheduleController controller = Get.put(
     ScheduleController(ScheduleModel().obs),

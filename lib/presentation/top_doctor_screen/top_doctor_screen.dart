@@ -10,7 +10,7 @@ import '../models/topdoctorlist_item_model.dart';
 import 'widgets/topdoctorlist_item_widget.dart';
 
 class TopDoctorScreen extends GetWidget<TopDoctorController> {
-  const TopDoctorScreen({Key? key}) : super(key: key);
+  const TopDoctorScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

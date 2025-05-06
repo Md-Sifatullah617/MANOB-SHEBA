@@ -9,9 +9,9 @@ import 'controller/sign_up_controller.dart';
 
 // ignore_for_file: must_be_immutable
 class SignUpScreen extends GetWidget<SignUpController> {
-  SignUpScreen({Key? key}) : super(key: key);
+  SignUpScreen({super.key});
 
-  GlobalKey<FormState> _formKey = GlobalKey<FormState>();
+  final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
 
   @override
   Widget build(BuildContext context) {
