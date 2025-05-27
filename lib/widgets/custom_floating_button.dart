@@ -17,7 +17,7 @@ class CustomFloatingButton extends StatelessWidget {
   final Alignment? alignment;
   final Color? backgroundColor;
   final VoidCallback? onTap;
-  final BoxShape? shape;
+  final ShapeBorder? shape;
   final double? width;
   final double? height;
   final BoxDecoration? decoration;
